@@ -1,8 +1,32 @@
-# React + Vite
+# Web Builder CP
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
+Web Builder CP is a replica of a website made from scratch using React with Vite and TailwindCSS. The project focuses on building reusable components, particularly card components and a rating system, to enhance code modularity and maintainability.
 
-Currently, two official plugins are available:
+## Features
+- Replica of a website built from scratch using React, Vite, and TailwindCSS.
+- Reusable card components for displaying various types of content.
+- Reusable vertical card components for displaying content in a vertical layout.
+- Modular and reusable rating system component.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technologies Used
+- React
+- Vite
+- TailwindCSS
+
+## Deployment
+This project is deployed on Netlify. You can access it here: https://web-builder-cp.netlify.app/.
+
+## How to Use
+- Clone the repository to your local machine.
+- Install dependencies using npm install.
+- Start the development server using npm run dev.
+- Open your web browser and navigate to the provided URL.
+
+## Components
+Card Components
+- Card: A reusable card component for displaying content.
+- VerticalCard: A reusable card component for displaying content in a vertical layout.
+
+## Rating System
+- Rating: A reusable rating system component for providing user ratings.

@@ -3,19 +3,19 @@ import logo1 from '../assets/logo1.png';
 function Footer() {
   return (
         
-        <footer className="bg-white dark:bg-gray-900 bottom-0 left-0 w-full border-t-2">
+        <footer className="bg-[#212731] dark:bg-gray-900 bottom-0 left-0 w-full border-t-2">
             <div className="mx-auto w-full p-4 py-6 lg:pt-8">
                 <div className="md:flex md:justify-around">
                 <div className="mb-6 md:mb-0">
                     <a href="https://flowbite.com/" className="flex items-center">
                         <img src={logo1} className="h-8 me-3" alt="FlowBite Logo" />
-                        <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Web Builder</span>
+                        <span className="self-center text-2xl font-semibold whitespace-nowrap text-gray-200 dark:text-white">Web Builder</span>
                     </a>
                 </div>
                 <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
                     <div>
-                        <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Categories</h2>
-                        <ul className="text-gray-500 dark:text-gray-400 font-medium">
+                        <h2 className="mb-6 text-sm font-semibold text-gray-200 uppercase dark:text-white">Categories</h2>
+                        <ul className="text-gray-400 dark:text-gray-400 font-medium">
                             <li className="mb-4">
                                 <a href="https://flowbite.com/" className="hover:underline">Web Builder</a>
                             </li>
@@ -31,8 +31,8 @@ function Footer() {
                         </ul>
                     </div>
                     <div>
-                        <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Contact</h2>
-                        <ul className="text-gray-500 dark:text-gray-400 font-medium">
+                        <h2 className="mb-6 text-sm font-semibold text-gray-200 uppercase dark:text-white">Contact</h2>
+                        <ul className="text-gray-400 dark:text-gray-400 font-medium">
                             <li className="mb-4">
                                 <a href="https://github.com/themesberg/flowbite" className="hover:underline ">Contact</a>
                             </li>
@@ -58,7 +58,7 @@ function Footer() {
             </div>
             <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
             <div className="sm:flex sm:items-center sm:justify-between">
-                <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2024 <a href="https://flowbite.com/" className="hover:underline">rxjans™</a>. All Rights Reserved.
+                <span className="text-sm text-gray-200 sm:text-center dark:text-gray-400">© 2024 <a href="https://flowbite.com/" className="hover:underline">rxjans™</a>. All Rights Reserved.
                 </span>
                 <div className="flex mt-4 sm:justify-center sm:mt-0">
                     <a href="www.github.com/rxjans" className="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5">

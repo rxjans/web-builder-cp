@@ -50,7 +50,7 @@ function LandingPage() {
             <div className='mt-4'>
                 {
                     arr.map((currElem, index)=> {
-                       return <Card id={currElem.id} name={currElem.name} subname={currElem.subname} title={currElem.title} subtitle={currElem.subtitle} rating={currElem.ratings} remarks={currElem.remarks} stars={currElem.stars} />
+                       return <Card id={currElem.id} name={currElem.name} value={currElem.value} subname={currElem.subname} title={currElem.title} subtitle={currElem.subtitle} rating={currElem.ratings} remarks={currElem.remarks} stars={currElem.stars} />
                     })
                 }
             </div>

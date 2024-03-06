@@ -8,7 +8,7 @@ import VertiCards from '../components/VerticalCards.jsx';
 import {arr1} from '../constant/vertiDescription.js';
 function LandingPage() {
   return (
-    <div className='max-w-[1200px] w-full mx-auto min-h-screen'>
+    <div className='max-w-[1200px] w-full mx-auto min-h-screen px-2'>
        <div>
             <div className='lg:text-[40px] text-[34px] font-semibold'>
                 <h1>Best Website Builder in the US</h1>

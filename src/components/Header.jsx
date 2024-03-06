@@ -6,7 +6,7 @@ import {Button} from 'flowbite-react';
 
 function Header() {
   return (
-    <nav className='top-0 z-50 w-full bg-white px-2 py-2.5 bg-[#212731] sm:px-4 border-b-2'>
+    <nav className='top-0 z-50 w-full px-2 py-2.5 bg-[#212731] sm:px-4 border-b-2'>
       <div className='mx-auto flex flex-wrap items-center justify-between container'>
         <a href to='/'>
           <img src={logo1} className='w-[50px] h-[40px] '/>
